@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+}
+
+#wrapper {
+  width: 1000px;
+  height: auto;
+}
+#left {
+   width: 600px;
+   height: auto;
+   float: left;
+}
+#right {
+    width: 400px;
+    height: auto;
+    float: left;
+}
+
+.mat-sort-header-container {
+  align-items: center;
+}
+
+.margem {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p {
+  font-style: italic;
+}
+
+a:link {
+  text-decoration: none;
+  color: #A9927D;
+}
+
+a:visited {
+  color: #A9927D;
+}

@@ -1,0 +1,129 @@
+<div id="wrapper">
+  <section id="left">
+    <div class="margem">
+      <mat-card>
+        <mat-card-subtitle>
+          Relação de Regiões Brasileiras
+        </mat-card-subtitle>
+        <table matSort (matSortChange)="regioes">
+          <tr>
+            <th mat-sort-header="id">ID</th>
+            <th mat-sort-header="regiao">Região</th>
+            <th mat-sort-header="qnt_exames">Nº de exames</th>
+          </tr>
+    
+          <tr *ngFor="let element of regioes">
+            <td>{{element.id}}</td>
+            <td>{{element.regiao}}</td>
+            <td>{{element.qnt_exames}}</td>
+          </tr>
+        </table>
+      </mat-card>
+
+    </div>
+
+    <br>
+
+    <div class="margem">
+      <mat-card>
+        <mat-card-subtitle>
+          Faixa Etária das mulheres que realizaram os exames
+        </mat-card-subtitle>
+        <table matSort (matSortChange)="faixasetarias">
+          <tr>
+            <th mat-sort-header="id">ID</th>
+            <th mat-sort-header="faixa_i">Faixa inicial</th>
+            <th mat-sort-header="faixa_n">Faixa final</th>
+            <th mat-sort-header="descricao">Descrição</th>
+          </tr>
+    
+          <tr *ngFor="let element of faixasetarias">
+            <td>{{element.id}}</td>
+            <td>{{element.faixa_i}}</td>
+            <td>{{element.faixa_n}}</td>
+            <td>{{element.descricao}}</td>
+          </tr>
+        </table>
+      </mat-card>
+
+    </div>
+
+    <br>
+
+    <div class="margem">
+      <mat-card>
+        <mat-card-subtitle>
+          Exames de mamografia entre junho e julho de 2015
+        </mat-card-subtitle>
+        <table matSort (matSortChange)="incidencia_exame">
+          <tr>
+            <th mat-sort-header="id">ID</th>
+            <th mat-sort-header="regiao_id">ID Região</th>
+            <th mat-sort-header="mes">Mês</th>
+            <th mat-sort-header="faixa_id">ID Faixa Etária</th>
+            <th mat-sort-header="qnt_exames">Quantidade de exames</th>
+          </tr>
+    
+          <tr *ngFor="let element of incidencia_exame">
+            <td>{{element.id}}</td>
+            <td>{{element.regiao_id}}</td>
+            <td>{{element.mes}}</td>
+            <td>{{element.faixa_id}}</td>
+            <td>{{element.qnt_exames}}</td>
+          </tr>
+        </table>
+      </mat-card>
+
+    </div>
+    
+    <br>
+  </section>
+
+  <section id="right">
+    <mat-accordion>
+      <mat-expansion-panel
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+      >
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Gostaria de mais informações?
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+      <mat-panel-title>
+        Alguns fatores de risco são:
+      </mat-panel-title>
+      <ul>
+        <li>obesidade e sobrepeso</li>
+        <li>alteração genética, especialmente nos genes BRCA1 e BRCA2</li>
+        <li>não ter tido filhos</li>
+      </ul>
+      <mat-panel-title>
+        Como prevenir?
+      </mat-panel-title>
+      <ul>
+        <li>evitar o consumo de bebidas alcóolicas</li>
+        <li>praticar atividade física</li>
+        <li>não fumar e evitar o tabagismo passivo</li>
+      </ul>
+      <mat-panel-title>
+        Alguns sinais e sintomas:
+      </mat-panel-title>
+      <ul>
+        <li>caroço (nódulo) endurecido, fixo e geralmente indolor.</li>
+        <li>pequenos nódulos na região embaixo dos braços (axilas) ou no pescoço.</li>
+        <li>pele da mama avermelhada, retraída ou parecida com casca de laranja.</li>
+      </ul>
+      <p>
+        fonte: 
+          <a
+            href="https://www.inca.gov.br/tipos-de-cancer/cancer-de-mama"
+            target="_blank"
+          >
+            INCA
+          </a>
+      </p>
+    </mat-expansion-panel>
+    </mat-accordion>
+  </section>
+</div>
