@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "regiao": "Norte",
+    "qnt_exames": 44
+  },
+  {
+    "id": 2,
+    "regiao": "Nordeste",
+    "qnt_exames": 13832
+  },
+  {
+    "id": 3,
+    "regiao": "Sudeste",
+    "qnt_exames": 89657
+  },
+  {
+    "id": 4,
+    "regiao": "Sul",
+    "qnt_exames": 122
+  },
+  {
+    "id": 5,
+    "regiao": "Centro-Oeste",
+    "qnt_exames": 2581
+  }
+]

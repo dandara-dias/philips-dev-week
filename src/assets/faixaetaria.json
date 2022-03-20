@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "faixa_i": 0,
+    "faixa_n": 10,
+    "descricao": "Até 10 anos"
+  },
+  {
+    "id": 2,
+    "faixa_i": 11,
+    "faixa_n": 14,
+    "descricao": "Entre 11 e 14 anos"
+  },
+  {
+    "id": 3,
+    "faixa_i": 15,
+    "faixa_n": 19,
+    "descricao": "Entre 15 e 19 anos"
+  },
+  {
+    "id": 4,
+    "faixa_i": 20,
+    "faixa_n": 24,
+    "descricao": "Entre 20 e 24 anos"
+  },
+  {
+    "id": 5,
+    "faixa_i": 25,
+    "faixa_n": 29,
+    "descricao": "Entre 25 e 29 anos"
+  },
+  {
+    "id": 6,
+    "faixa_i": 30,
+    "faixa_n": 34,
+    "descricao": "Entre 30 e 34 anos"
+  },
+  {
+    "id": 7,
+    "faixa_i": 35,
+    "faixa_n": 39,
+    "descricao": "Entre 35 e 39 anos"
+  },
+  {
+    "id": 8,
+    "faixa_i": 40,
+    "faixa_n": 44,
+    "descricao": "Entre 40 e 44 anos"
+  },
+  {
+    "id": 9,
+    "faixa_i": 45,
+    "faixa_n": 49,
+    "descricao": "Entre 45 e 49 anos"
+  },
+  {
+    "id": 10,
+    "faixa_i": 50,
+    "faixa_n": 54,
+    "descricao": "Entre 50 e 54 anos"
+  },
+  {
+    "id": 11,
+    "faixa_i": 55,
+    "faixa_n": 59,
+    "descricao": "Entre 55 e 59 anos"
+  },
+  {
+    "id": 12,
+    "faixa_i": 60,
+    "faixa_n": 64,
+    "descricao": "Entre 60 e 64 anos"
+  },
+  {
+    "id": 13,
+    "faixa_i": 65,
+    "faixa_n": 69,
+    "descricao": "Entre 65 e 69 anos"
+  },
+  {
+    "id": 14,
+    "faixa_i": 70,
+    "faixa_n": 150,
+    "descricao": "Acima de 70"
+  }
+]
