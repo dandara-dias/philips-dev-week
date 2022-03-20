@@ -11,8 +11,8 @@ export class FaixaetariaService {
   constructor(private http: HttpClient) { }
 
   listFaixaEtaria(): Observable<Faixaetaria[]> {
-    const url = '/api/faixaetaria';
-    // const url = 'assets/faixaetaria.json';
+    // const url = '/api/faixaetaria';
+    const url = 'assets/faixaetaria.json';
     return this.http.get<Faixaetaria[]>(url);
   }
 }
